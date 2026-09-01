@@ -115,6 +115,8 @@ const deleteTask = async (req, res) => {
     });
   }
 };
+
+console.log("Task controller loaded");
 module.exports = {
   getTasks,
   getTask,
